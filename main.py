@@ -72,7 +72,7 @@ def generate(cnt):
         # elif shapename == "line":
         #     line(resolution,ic,colours)
     # image.show()
-    imgName="'"+str(cnt)+".png'"
+    imgName= str(cnt)+".png"
     print(imgName)
     image.save(imgName,'png')
 
